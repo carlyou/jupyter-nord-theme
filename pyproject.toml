@@ -1,0 +1,58 @@
+[build-system]
+requires = ["hatchling>=1.5.0", "jupyterlab>=4.0.0,<5", "hatch-nodejs-version>=0.3.2"]
+build-backend = "hatchling.build"
+
+[project]
+name = "jupyterlab-nord-theme"
+version = "0.1.0"
+description = "An arctic, north-bluish clean and elegant JupyterLab theme based on the Nord color palette"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.8"
+authors = [
+    { name = "carlyou", email = "carlyou@users.noreply.github.com" },
+]
+keywords = ["Jupyter", "JupyterLab", "JupyterLab4", "theme", "Nord"]
+classifiers = [
+    "Framework :: Jupyter",
+    "Framework :: Jupyter :: JupyterLab",
+    "Framework :: Jupyter :: JupyterLab :: 4",
+    "Framework :: Jupyter :: JupyterLab :: Extensions",
+    "Framework :: Jupyter :: JupyterLab :: Extensions :: Prebuilt",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+dependencies = [
+    "jupyterlab>=4.0.0,<5",
+]
+
+[project.urls]
+Homepage = "https://github.com/carlyou/jupyter-nord-theme"
+Bug-Tracker = "https://github.com/carlyou/jupyter-nord-theme/issues"
+Repository = "https://github.com/carlyou/jupyter-nord-theme.git"
+
+[tool.hatch.version]
+source = "nodejs"
+
+[tool.hatch.metadata.hooks.nodejs]
+fields = ["description", "authors", "urls"]
+
+[tool.hatch.build.targets.sdist]
+artifacts = ["jupyterlab_nord_theme/labextension"]
+exclude = [".github", "binder"]
+
+[tool.hatch.build.targets.wheel.shared-data]
+"jupyterlab_nord_theme/labextension" = "share/jupyter/labextensions/jupyterlab-nord-theme"
+"install.json" = "share/jupyter/labextensions/jupyterlab-nord-theme/install.json"
+
+[dependency-groups]
+dev = [
+    "build>=1.3.0",
+    "twine>=6.2.0",
+]
