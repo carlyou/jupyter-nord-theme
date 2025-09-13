@@ -6,6 +6,10 @@ An arctic, north-bluish clean and elegant JupyterLab theme based on the [Nord co
 ![PyPI](https://img.shields.io/pypi/v/jupyterlab-nord-theme)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
+## Preview
+
+![JupyterLab Nord Theme Screenshot](screenshot.png)
+
 ## Features
 
 - **Nord Color Palette**: Authentic implementation of the 16-color Nord palette
