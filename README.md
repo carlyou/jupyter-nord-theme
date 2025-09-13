@@ -56,8 +56,8 @@ pip install jupyterlab-nord-theme
 
 ```bash
 # Clone the repository
-git clone https://github.com/carlyou/jupyter-nord-theme.git
-cd jupyter-nord-theme
+git clone https://github.com/carlyou/jupyterlab-nord-theme.git
+cd jupyterlab-nord-theme
 
 # Install in development mode
 pip install -e .
@@ -82,8 +82,8 @@ pip install -e .
 
 ```bash
 # Clone the repository
-git clone https://github.com/carlyou/jupyter-nord-theme.git
-cd jupyter-nord-theme
+git clone https://github.com/carlyou/jupyterlab-nord-theme.git
+cd jupyterlab-nord-theme
 
 # Install Python dependencies
 pip install -e .
@@ -108,7 +108,7 @@ jupyter labextension develop . --overwrite
 ### Project Structure
 
 ```
-jupyter-nord-theme/
+jupyterlab-nord-theme/
 ├── src/                    # TypeScript source code
 │   └── index.ts           # Extension registration
 ├── style/                 # CSS theme files

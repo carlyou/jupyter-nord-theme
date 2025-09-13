@@ -9,9 +9,9 @@
     "theme",
     "nord"
   ],
-  "homepage": "https://github.com/carlyou/jupyter-nord-theme",
+  "homepage": "https://github.com/carlyou/jupyterlab-nord-theme",
   "bugs": {
-    "url": "https://github.com/carlyou/jupyter-nord-theme/issues"
+    "url": "https://github.com/carlyou/jupyterlab-nord-theme/issues"
   },
   "license": "MIT",
   "author": {
@@ -28,7 +28,7 @@
   "style": "style/index.css",
   "repository": {
     "type": "git",
-    "url": "https://github.com/carlyou/jupyter-nord-theme.git"
+    "url": "https://github.com/carlyou/jupyterlab-nord-theme.git"
   },
   "scripts": {
     "build": "jlpm build:lib && jlpm build:labextension:dev",

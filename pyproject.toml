@@ -33,9 +33,9 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/carlyou/jupyter-nord-theme"
-Bug-Tracker = "https://github.com/carlyou/jupyter-nord-theme/issues"
-Repository = "https://github.com/carlyou/jupyter-nord-theme.git"
+Homepage = "https://github.com/carlyou/jupyterlab-nord-theme"
+Bug-Tracker = "https://github.com/carlyou/jupyterlab-nord-theme/issues"
+Repository = "https://github.com/carlyou/jupyterlab-nord-theme.git"
 
 [tool.hatch.version]
 source = "nodejs"
