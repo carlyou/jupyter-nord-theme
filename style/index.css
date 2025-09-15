@@ -21,6 +21,9 @@
   --nord13: #ebcb8b;
   --nord14: #a3be8c;
   --nord15: #b48ead;
+
+  /* Custom auxiliary colors */
+  --nord-aux-comment: #8a9199;
 }
 
 body[data-jp-theme-name='Nord'] {
@@ -270,7 +273,7 @@ body[data-jp-theme-name='Nord'] {
   --jp-mirror-editor-punctuation-color: var(--nord6);
   --jp-mirror-editor-property-color: var(--nord8);
   --jp-mirror-editor-operator-color: var(--nord9);
-  --jp-mirror-editor-comment-color: var(--nord3);
+  --jp-mirror-editor-comment-color: var(--nord-aux-comment);
   --jp-mirror-editor-string-color: var(--nord14);
   --jp-mirror-editor-string-2-color: var(--nord15);
   --jp-mirror-editor-meta-color: var(--nord15);

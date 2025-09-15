@@ -4,11 +4,11 @@ build-backend = "hatchling.build"
 
 [project]
 name = "jupyterlab-nord-theme"
-version = "0.1.0"
+version = "0.1.1"
 description = "An arctic, north-bluish clean and elegant JupyterLab theme based on the Nord color palette"
 readme = "README.md"
 license = { file = "LICENSE" }
-requires-python = ">=3.8"
+requires-python = ">=3.9"
 authors = [
     { name = "carlyou", email = "carlyou@users.noreply.github.com" },
 ]

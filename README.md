@@ -22,11 +22,11 @@ An arctic, north-bluish clean and elegant JupyterLab theme based on the [Nord co
 
 ## Color Palette
 
-This theme uses the official Nord color palette:
+This theme uses the official Nord color palette with custom auxiliary colors for enhanced readability:
 
 ### Polar Night (Dark Backgrounds)
 - `nord0` - `#2e3440` - Darkest background
-- `nord1` - `#3b4252` - Dark background  
+- `nord1` - `#3b4252` - Dark background
 - `nord2` - `#434c5e` - Medium background
 - `nord3` - `#4c566a` - Light background
 
@@ -47,6 +47,9 @@ This theme uses the official Nord color palette:
 - `nord13` - `#ebcb8b` - Yellow (warnings)
 - `nord14` - `#a3be8c` - Green (success)
 - `nord15` - `#b48ead` - Purple
+
+### Custom Auxiliary Colors
+- `nord-aux-comment` - `#8a9199` - Optimized comment color for better readability
 
 ## Installation
 
